@@ -1,0 +1,31 @@
+feature,type,25% quantile,50% quantile,75% quantile,top split 1,top split 2,top split 3
+pipe_material_Copper,categorical,,,,1.0,,
+pipe_material_Ductile Iron,categorical,,,,1.0,,
+pipe_material_PVC,categorical,,,,1.0,,
+pipe_material_Steel,categorical,,,,1.0,,
+pump_state_OFF,categorical,,,,1.0,,
+pump_state_ON,categorical,,,,1.0,,
+unusual_usage_flag,categorical,,,,1.0,,
+valve_status_Closed,categorical,,,,1.0,,
+valve_status_Open,categorical,,,,1.0,,
+valve_status_Partial,categorical,,,,1.0,,
+acoustic_amplitude_db,continuous,0.331,0.418,0.551,0.331,0.278,0.551
+coord_lat,continuous,0.104,0.432,0.655,0.104,0.223,0.432
+coord_lon,continuous,0.305,0.567,0.72,0.305,0.295,0.432
+flow_rate_change_per_min,continuous,0.44,0.527,0.67,0.527,0.69,0.675
+flow_rate_lps,continuous,0.403,0.494,0.605,0.324,0.499,0.518
+hour_cos,continuous,0.25,0.5,0.933,0.933,0.5,0.25
+hour_sin,continuous,0.629,0.75,0.854,0.854,0.75,0.629
+inc_lat,continuous,0.385,0.534,0.718,0.926,0.385,0.534
+inc_lon,continuous,0.211,0.38,0.514,0.085,0.249,0.572
+leak_noise_score,continuous,0.455,0.687,0.788,0.788,0.697,0.455
+min_pressure_24h_psi,continuous,0.266,0.425,0.631,0.176,0.402,0.631
+nighttime_flow_rate_lps,continuous,0.404,0.536,0.734,0.602,0.825,0.734
+pipe_age_years,continuous,0.273,0.466,0.568,0.477,0.205,0.455
+pipe_diameter_mm,continuous,0.333,0.667,1.0,0.333,0.667,1.0
+pressure_psi,continuous,0.343,0.402,0.578,0.402,0.353,0.228
+pump_flow_rate_lps,continuous,0.285,0.42,0.648,0.272,0.234,0.638
+total_flow_volume_m3,continuous,0.377,0.512,0.728,0.392,0.512,0.635
+valve_position_percent,continuous,0.331,0.458,0.583,0.404,0.471,0.814
+vibration_frequency_hz,continuous,0.443,0.562,0.646,0.646,0.449,0.403
+zero_flow_duration_min,continuous,0.291,0.43,0.594,0.147,0.524,0.35

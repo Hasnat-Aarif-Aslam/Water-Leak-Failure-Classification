@@ -1,0 +1,30 @@
+pipe_material_Copper: split when == 1.0
+pipe_material_Ductile Iron: split when == 1.0
+pipe_material_PVC: split when == 1.0
+pipe_material_Steel: split when == 1.0
+pump_state_OFF: split when == 1.0
+pump_state_ON: split when == 1.0
+unusual_usage_flag: split when == 1.0
+valve_status_Closed: split when == 1.0
+valve_status_Open: split when == 1.0
+valve_status_Partial: split when == 1.0
+acoustic_amplitude_db: low ≤0.331, med 0.331–0.551, high >0.551
+coord_lat: low ≤0.104, med 0.104–0.655, high >0.655
+coord_lon: low ≤0.305, med 0.305–0.72, high >0.72
+flow_rate_change_per_min: low ≤0.44, med 0.44–0.67, high >0.67
+flow_rate_lps: low ≤0.403, med 0.403–0.605, high >0.605
+hour_cos: low ≤0.25, med 0.25–0.933, high >0.933
+hour_sin: low ≤0.629, med 0.629–0.854, high >0.854
+inc_lat: low ≤0.385, med 0.385–0.718, high >0.718
+inc_lon: low ≤0.211, med 0.211–0.514, high >0.514
+leak_noise_score: low ≤0.455, med 0.455–0.788, high >0.788
+min_pressure_24h_psi: low ≤0.266, med 0.266–0.631, high >0.631
+nighttime_flow_rate_lps: low ≤0.404, med 0.404–0.734, high >0.734
+pipe_age_years: low ≤0.273, med 0.273–0.568, high >0.568
+pipe_diameter_mm: low ≤0.333, med 0.333–1.0, high >1.0
+pressure_psi: low ≤0.343, med 0.343–0.578, high >0.578
+pump_flow_rate_lps: low ≤0.285, med 0.285–0.648, high >0.648
+total_flow_volume_m3: low ≤0.377, med 0.377–0.728, high >0.728
+valve_position_percent: low ≤0.331, med 0.331–0.583, high >0.583
+vibration_frequency_hz: low ≤0.443, med 0.443–0.646, high >0.646
+zero_flow_duration_min: low ≤0.291, med 0.291–0.594, high >0.594
